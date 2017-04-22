@@ -1,21 +1,17 @@
 # Build commands
-=================
 hadoop com.sun.tools.javac.Main newKMeans.java
 jar cf output.jar newKMeans*.class
 hadoop jar output.jar newKMeans {input_file} {output_file} {cluster_number} {data_dimension} {convergence_threshold}
 
 ## for example
-------------
 hadoop com.sun.tools.javac.Main newKMeans.java
 jar cf output.jar newKMeans*.class
 hadoop jar output.jar newKMeans hd-iris.txt output 3 4 0.01
 
 # Data formate requirement
-========================
 {vector values separated by comma}, {category}
 
 ## for example
-------------
 1.0,2.0,3.0,Father
 2.0,3.0,4.0,Mother
 3.0,4.0,5.0,Sister
@@ -24,7 +20,6 @@ hadoop jar output.jar newKMeans hd-iris.txt output 3 4 0.01
 in this example, {data_dimension} is 3
 
 # Algorithm
-================
 ```
 main function
    read data
