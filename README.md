@@ -22,6 +22,9 @@ hadoop jar output.jar newKMeans {input_file} {output_file} {cluster_number} {dat
 ```
 in this example, {data_dimension} is 3
 
+## data in practice
+I hava token experiments on the [IRIS](https://archive.ics.uci.edu/ml/datasets/Iris) dataset
+
 # Algorithm
 ```
 main function
