@@ -15,9 +15,14 @@ hadoop jar output.jar newKMeans {input_file} {output_file} {cluster_number} {dat
 
 ## for example
 1.0,2.0,3.0,Father
+
 2.0,3.0,4.0,Mother
+
 3.0,4.0,5.0,Sister
+
 5.0,2.0,1.0,Brother
+
+
 
 in this example, {data_dimension} is 3
 
