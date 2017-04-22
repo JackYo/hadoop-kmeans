@@ -18,7 +18,7 @@
 3.0,4.0,5.0,Sister
 5.0,2.0,1.0,Brother
 ```
-in this example, {data_dimension} is 3
+in this example, data_dimension is 3
 
 ## data in practice
 I hava token experiments on the [IRIS](https://archive.ics.uci.edu/ml/datasets/Iris) dataset
