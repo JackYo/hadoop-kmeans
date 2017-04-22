@@ -1,5 +1,5 @@
 # Environment
-hadoop 2.6.0
+hadoop 2.6.0  
 java 1.7.0_121
 
 # Build commands
