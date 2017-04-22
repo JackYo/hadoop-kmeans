@@ -1,25 +1,20 @@
-=================
-build commands
+#build commands
 =================
 hadoop com.sun.tools.javac.Main newKMeans.java
 jar cf output.jar newKMeans*.class
 hadoop jar output.jar newKMeans {input_file} {output_file} {cluster_number} {data_dimension} {convergence_threshold}
 
-------------
-for example
+##for example
 ------------
 hadoop com.sun.tools.javac.Main newKMeans.java
 jar cf output.jar newKMeans*.class
 hadoop jar output.jar newKMeans hd-iris.txt output 3 4 0.01
 
-*****************************************
-========================
-data formate requirement
+#data formate requirement
 ========================
 {vector values separated by comma}, {category}
 
-------------
-for example
+##for example
 ------------
 1.0,2.0,3.0,Father
 2.0,3.0,4.0,Mother
@@ -28,10 +23,9 @@ for example
 
 in this example, {data_dimension} is 3
 
-*****************************************
+#Algorithm
 ================
-Algorithm
-================
+```
 main function
    read data
    randomly choose data points for initial centroids
@@ -48,4 +42,4 @@ main function
 	   set previous_centroids as current_centroids
 
        judge to continue or not
---  
+```
