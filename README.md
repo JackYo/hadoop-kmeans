@@ -1,6 +1,6 @@
 # Build commands
-`hadoop com.sun.tools.javac.Main newKMeans.java`  
-`jar cf output.jar newKMeans*.class`  
+`hadoop com.sun.tools.javac.Main {filename}.java`  
+`jar cf output.jar {filename}*.class`  
 `hadoop jar output.jar newKMeans {input_file} {output_file} {cluster_number} {data_dimension} {convergence_threshold}`  
 
 ## for example
