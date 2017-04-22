@@ -1,3 +1,7 @@
+# Environment
+hadoop 2.6.0
+java 1.7.0_121
+
 # Build commands
 `hadoop com.sun.tools.javac.Main {filename}.java`  
 `jar cf output.jar {filename}*.class`  
