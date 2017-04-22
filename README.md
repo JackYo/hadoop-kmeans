@@ -21,7 +21,7 @@
 in this example, data_dimension is 3
 
 ## data in practice
-I hava token experiments on the [IRIS](https://archive.ics.uci.edu/ml/datasets/Iris) dataset
+I hava token experiments on the [IRIS](https://archive.ics.uci.edu/ml/datasets/Iris) dataset.
 
 # Algorithm
 ```
